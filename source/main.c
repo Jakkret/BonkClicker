@@ -1,6 +1,6 @@
 /*
 	BonkClicker - a goofy clicker for WinAPI
-	Made by Applehat. (github.com/ApplehatDot)
+	Made by Applehat. (github.com/Jakkret)
 	BONK - for MarsVinyl1234
 */ 
 
