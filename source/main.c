@@ -1,11 +1,11 @@
 /*
-	BonkClicker - a goofy clicker for WinAPI
-	Made by Applehat. (github.com/Jakkret)
+	BonkClicker - a goofy clicker in WinAPI
+	https://github.com/Jakkret
 	BONK - for MarsVinyl1234
 */ 
 
 // ## Trying to make it more readable and organized
-// - ApplehatDot on 9.08.2025
+// - Jakkret @ 9.08.2025
 
 #include <windows.h>
 #include <mmsystem.h>
@@ -111,7 +111,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam){
 					break;
 					
 				case 9002: //if (LOWORD(wParam) == 9002) {
-					MessageBoxW(NULL,  L"BONK Clicker v1.0.1-Enhanced\n\nCreated by Applehat.\nDedicated to fellow bonkers:\nElif, MarsVinyl1234, Deborah (a.k.a. Reverse Name)", L"About", MB_OK);
+					MessageBoxW(NULL,  L"BONK Clicker v1.0.1\n\nCreated by Jakkret.\n", L"About", MB_OK);
 					break;
 			}	// <-- switch ends here
 			
